@@ -8,8 +8,25 @@
 body{
     background-color: hsl(0, 0%, 8%);
     color: black;
-    font: ;
+
 }
+@media (max-width: 1440px) {
+    .second{
+        width: 90%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 375px){
+    .second{
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+ 
+}
+}
+        
 h2{
     color: hsl(0, 0%, 100%);
     font-weight: 700;
@@ -64,4 +81,8 @@ button{
     border-radius: 10px;
     background-color: hsl(0, 0%, 20%);
     color:  hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+button hover{
+    background-color: hsl(75, 94%, 57%);
 }
